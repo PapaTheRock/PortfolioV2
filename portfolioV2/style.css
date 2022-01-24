@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #ac0e28 40%, #013766 50%);
+    margin: 0px;
+}
+
+.navBar {
+    font-size: 4vh;
+    color: #f2ca19;
+    text-align: center;
+    font-family: Source Code Pro;
+    transition-delay: 1s;
+    padding-right: 10vh;
+    padding-top: 02vh;
+    padding-bottom: 05vh;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, #ac0e28 40%, #013766 50%);
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: black;
+    scroll-behavior: smooth;
+}
+
+.navBar :hover {
+    color: #60500a;
+}
+
+.navBar :active {
+    color: #60500a;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #f2ca19;
+}
+
+.splash {
+    font-size: 07vh;
+    color: #f2ca19; 
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+    display: inline-block;
+    padding-top: 05vh;
+}
+
+#intro {
+    font-size: 04vh;
+    color: #f2ca19; 
+    text-align: left;
+    font-family: Source Code Pro;
+    padding-right: 10vh;
+}
+
+.qualifications {
+    padding-top: 15vh;
+}
+
+#qualifications {
+    font-size: 07vh;
+    color: #f2ca19; 
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+    display: inline-block;
+}
+
+#paragraph {
+    font-size: 04vh;
+    color: #f2ca19; 
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+}
