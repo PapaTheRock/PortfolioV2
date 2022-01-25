@@ -1,21 +1,20 @@
 body {
     height: 100%;
-    background: linear-gradient(90deg, #ac0e28 40%, #013766 50%);
+    background: #0A192F;
     margin: 0px;
 }
 
 .navBar {
     font-size: 4vh;
-    color: #f2ca19;
+    color: #658da7;
     text-align: center;
     font-family: Source Code Pro;
-    transition-delay: 1s;
-    padding-right: 10vh;
-    padding-top: 02vh;
-    padding-bottom: 05vh;
+    transition: all 0.3s ease;
+    padding-top: 01vh;
+    padding-bottom: 02vh;
     position: fixed;
     width: 100%;
-    background: linear-gradient(90deg, #ac0e28 40%, #013766 50%);
+    background: linear-gradient(90deg, #ac0e28 0%, #013766 50%);
     outline-style: solid;
     outline-width: 5px;
     outline-color: black;
@@ -33,41 +32,110 @@ body {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
-    color: #f2ca19;
+    color: #658da7;
+}
+
+#container {
+    display: flex;
+    align-items: center;
 }
 
 .splash {
     font-size: 07vh;
-    color: #f2ca19; 
+    color: #658da7; 
     font-family: Source Code Pro;
     padding-left: 10vh;
-    display: inline-block;
     padding-top: 05vh;
+    padding-bottom: 15vh;
+}
+
+#selfImage {
+    vertical-align: middle;
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin-right: 15vh;
+    margin-bottom: 10vh;
+    border-style: solid;
+    border-width: 03px;
+    border-color: #658da7;
+    border-radius: 50%;
 }
 
 #intro {
     font-size: 04vh;
-    color: #f2ca19; 
+    color: #658da7; 
     text-align: left;
     font-family: Source Code Pro;
     padding-right: 10vh;
 }
 
 .qualifications {
-    padding-top: 15vh;
+    padding-top: 10vh;
+    background-color: #222f43;
 }
 
-#qualifications {
+#h2Design {
     font-size: 07vh;
-    color: #f2ca19; 
+    color: #658da7; 
     font-family: Source Code Pro;
     padding-left: 10vh;
-    display: inline-block;
 }
 
 #paragraph {
     font-size: 04vh;
-    color: #f2ca19; 
+    color: #658da7; 
     font-family: Source Code Pro;
     padding-left: 10vh;
+}
+
+#techLists {
+    list-style-type: square;
+    font-size: 02vh;
+    color: #658da7; 
+    font-family: Source Code Pro;
+    padding-left: 15vh;
+    display: inline-block;
+    margin: -01vh;
+    margin-bottom: 05vh;
+}
+
+#technologies {
+    font-size: 04vh;
+    color: #658da7; 
+    text-align: left;
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+    padding-top: 05vh;
+}
+
+#certificates {
+    font-size: 04vh;
+    color: #658da7; 
+    text-align: left;
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+}
+
+#projectsList {
+    list-style-type: square;
+    font-size: 02vh;
+    color: #658da7; 
+    font-family: Source Code Pro;
+    padding-left: 15vh;
+    margin: -01vh;
+    margin-bottom: 05vh;
+
+}
+
+#cCheckImg {
+    align-content: right;
+    height: 500px;
+    width: 500px;
+}
+
+#imgHover :hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
