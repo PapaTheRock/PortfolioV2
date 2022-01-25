@@ -4,6 +4,24 @@ body {
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
 .navBar {
     font-size: 4vh;
     color: #658da7;
@@ -67,12 +85,13 @@ a:hover, a:visited, a:link, a:active
     color: #658da7; 
     text-align: left;
     font-family: Source Code Pro;
-    padding-right: 10vh;
+    padding-right: 15vh;
 }
 
 .qualifications {
     padding-top: 10vh;
     background-color: #222f43;
+    width: 100%;
 }
 
 #h2Design {
@@ -86,7 +105,7 @@ a:hover, a:visited, a:link, a:active
     font-size: 04vh;
     color: #658da7; 
     font-family: Source Code Pro;
-    padding-left: 10vh;
+    padding-left: 15vh;
 }
 
 #techLists {
@@ -117,6 +136,11 @@ a:hover, a:visited, a:link, a:active
     padding-left: 10vh;
 }
 
+.projects {
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+}
+
 #projectsList {
     list-style-type: square;
     font-size: 02vh;
@@ -128,14 +152,53 @@ a:hover, a:visited, a:link, a:active
 
 }
 
-#cCheckImg {
-    align-content: right;
-    height: 500px;
-    width: 500px;
+#cChecker {
+    font-size: 04vh;
+    color: #658da7; 
+    text-align: left;
+    font-family: Source Code Pro;
+    padding-left: 10vh;
+    padding-top: 05vh;
 }
 
-#imgHover :hover {
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+#cPara {
+    font-size: 02vh;
+    color: #658da7; 
+    font-family: Source Code Pro;
+    padding-left: 15vh;
+    display: inline-block;
+    margin: -01vh;
+    margin-bottom: 05vh;
+}
+
+#cCheckImg {
+    height: 200px;
+    width: 200px;
+}
+
+#gitLink {
+    color: #ccc;
+}
+
+#contactMe {
+    padding-top: 10vh;
+    background-color: #222f43;
+    width: 100%;
+    padding-bottom: 40vh;
+}
+
+#listItem { 
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-left: 20vh;
+    display: inline;
+}
+
+#blog {
+    padding-top: 10vh;
+}
+
+#twitter-timeline {
+    text-align: center;
 }
