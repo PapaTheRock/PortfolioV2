@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     background: #0A192F;
@@ -187,10 +191,13 @@ a:hover, a:visited, a:link, a:active
     padding-bottom: 40vh;
 }
 
+#conImage {
+    width: 200px;
+    height: 200px;
+}
+
 #listItem { 
     float: left;
-    width: 150px;
-    height: 150px;
     padding-left: 20vh;
     display: inline;
 }
